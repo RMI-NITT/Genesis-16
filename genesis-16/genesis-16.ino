@@ -150,7 +150,7 @@ int main()
     ch=255;
     OCR0A = ch;
 
-    // Write all the ADC to the prompt.
+    // Write all the ADC values to the Serial monitor.
   
     x1=(5000*z1)/255;
     
