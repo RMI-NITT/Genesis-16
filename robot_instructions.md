@@ -38,7 +38,9 @@ Its divided into 4 major steps:-
 <br/>
 
 #### Connections:
-A. Breadboard connections
+
+##### Breadboard connections
+
 1.Take out your LDRs and connect two male-female jumper wires to their legs. Now take out one straw and pass one of the LDRs with the jumper wires. Do the same with the other straw and LDR.
 
 2.Now tape the straws on the sides of the chassis using  insulation tape. After this is done, move on to the next step.
@@ -60,7 +62,8 @@ A. Breadboard connections
 10.If all the above mentioned steps have been completed, you may move von to the motor driver connections.
 <br/>
 
-B. Motor Driver connections
+##### Motor Driver connections
+
 1.Give left motor's wires to MB1(black wire) and MB2(red wire) and the right motor's wires to MA1(black wire) and MA2(red wire). Tighten using your screw driver.
 
 2.Take out a battery cap and connect the battery cap correctly to V+ and V-. Dont connect the battery now.
