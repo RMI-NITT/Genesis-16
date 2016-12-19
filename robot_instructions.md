@@ -3,7 +3,7 @@
 1. Light-chasing
 2. Integrating the arm to pick up
 <br/>
-----
+___
 ### Light-chasing Module:
 Its divided into 4 major steps:-
 - Construction
@@ -34,7 +34,7 @@ Its divided into 4 major steps:-
 10. Once all the above mentioned steps have been completed, the bot construction is now complete. We may now move on to the connections.
 <br/>
 #### Connections:
-- Breadboard connections
+A. Breadboard connections
 1. Take out your LDRs and connect two male-female jumper wires to their legs. Now take out one straw and pass one of the LDRs with the jumper wires. Do the same with the other straw and LDR.
 
 2. Now tape the straws on the sides of the chassis using  insulation tape. After this is done, move on to the next step.
@@ -55,7 +55,7 @@ Its divided into 4 major steps:-
 
 10. If all the above mentioned steps have been completed, you may move von to the motor driver connections.
 <br/>
-- Motor Driver connections
+B. Motor Driver connections
 1. Give left motor's wires to MB1(black wire) and MB2(red wire) and the right motor's wires to MA1(black wire) and MA2(red wire). Tighten using your screw driver.
 2. Take out a battery cap and connect the battery cap correctly to V+ and V-. Dont connect the battery now.
 3. Take out 8 male- female jumper wires. Make the following connections
@@ -73,7 +73,7 @@ Its divided into 4 major steps:-
 3. Now , in order to power up the MCU, take out another battery and wait.
 4. Once all the above mentioned steps have been completed, call a RMI member .Your Light-chasing module has been completed.
 <br/>
-----
+___
 ### Module No.2 Integrating the arm to pick up
 1. Affix your servo on the GND floor near the rectangular cut. Call a RMI member or follow the demosntartion to find out exactly where to stick the servo. You will be using double tape to fix it.
 2. Give the power line of the servo to 5 V on the MCU, the gnd line to the GND of the MCU and the signal line to the 9th pin of the MCU
