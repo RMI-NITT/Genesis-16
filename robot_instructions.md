@@ -80,15 +80,21 @@ Its divided into 4 major steps:-
 #### Uploading the code:
 
 1.Connect the USB cable and copy paste the code onto your IDE and upload it.
+
 2.Now remove the USB cable
+
 <br/>
 
 #### Testing the bot
 
 1.Keep your bot on top of the genesis kit box such that the wheels are free and floating in the air.
+
 2.Connect your battery cap's positive to the Vin pin and common ground the negative  
+
 3.Now , in order to power up the MCU, take out another battery and wait.
+
 4.Once all the above mentioned steps have been completed, call a RMI member .Your Light-chasing module has been completed.
+
 <br/>
 
 _____
