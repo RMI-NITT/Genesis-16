@@ -2,15 +2,16 @@
 ## Two major modules:
 1. Light-chasing
 2. Integrating the arm to pick up
+
 _____
 
 ### Light-chasing Module:
 
 Its divided into 4 major steps:-
-1.Construction
-2.Connections
-3.Uploading the code
-4.Powering up the bot and testing(debugging).
+* Construction
+* Connections
+* Uploading the code
+* Powering up the bot and testing(debugging).
 <br/>
 
 #### Construction:
@@ -61,10 +62,15 @@ A. Breadboard connections
 
 B. Motor Driver connections
 1.Give left motor's wires to MB1(black wire) and MB2(red wire) and the right motor's wires to MA1(black wire) and MA2(red wire). Tighten using your screw driver.
+
 2.Take out a battery cap and connect the battery cap correctly to V+ and V-. Dont connect the battery now.
+
 3.Take out 8 male- female jumper wires. Make the following connections
+
 4.A1-GND,A2-PD5,B1-PD6,B2-GND,EN_A-5V,EN_B-5V,GND-GND,Vcc-5V(Here you may use the GND created on the breadboard)
+
 5.Connect V- and the GND created on the breadboard using breadboard wire.(Common Ground Setup)
+
 6.With this, all motor driver connections are complete.  
 <br/>
 
@@ -81,12 +87,18 @@ B. Motor Driver connections
 3.Now , in order to power up the MCU, take out another battery and wait.
 4.Once all the above mentioned steps have been completed, call a RMI member .Your Light-chasing module has been completed.
 <br/>
+
 _____
 
 ### Module No.2 Integrating the arm to pick up
 1.Affix your servo on the GND floor near the rectangular cut. Call a RMI member or follow the demosntartion to find out exactly where to stick the servo. You will be using double tape to fix it.
+
 2.Give the power line of the servo to 5 V on the MCU, the gnd line to the GND of the MCU and the signal line to the 9th pin of the MCU
+
 3.Now its time to attach the arm to the servo. Pull the arm down a little to make sure it scrapes the ground.
+
 4.Fix an IR sensor on the other side of the rectangular cut pointing downwards.
+
 5.Give the Vcc to 5 V on the breadboard , GND to GND of the breadboard and the output line to PD2 on your MCU(the external interrupt pin).
+
 6.Once all the above mentioned steps have been completed, call a RMI member. Your Arm module has also been completed.
