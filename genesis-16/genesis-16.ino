@@ -128,7 +128,7 @@ int main()
   DDRD |= (1<<PD5)|(1<<PD6);
 
   // Output for servo
-  OCR1A=500;
+  OCR1A=220;
   while (1)
   {
     // ADC1
@@ -141,7 +141,6 @@ int main()
     ch=255;
     OCR0B = ch;
     
-   
 
     ADMUX &= ~(1 << MUX0);
     ch = adc_read()+50;
@@ -160,9 +159,6 @@ int main()
     uwrite((p + '0'));
     uwrite('.');
     uwrite((q + '0'));
-
-
-
     
     uwrite('\t');
 
